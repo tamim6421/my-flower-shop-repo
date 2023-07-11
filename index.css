@@ -22,9 +22,9 @@ span{
 .featured_description{
     color: gray;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
-    width: 500px;
+    width: 480px;
     margin: auto;
     line-height: 20px;
     margin-bottom:20px ;
@@ -34,7 +34,7 @@ span{
 /* header sectios styles */
 .header_wrapper{
     width: 100%;
-    background-color: rgba(255, 192, 203, 0.735);
+    background-color: rgba(250, 196, 205, 0.517);
 }
 .header_container{
     display: flex;
@@ -67,14 +67,15 @@ span{
     line-height: 26px;  
 }
 .header_btn{
-    padding: 5px 10px;
+    padding: 10px 15px;
     border-radius: 8px;
     background: #E55473;
     color: #FFF;
     font-family: Lato;
-    font-size: 20px;
+    font-size: 15px;
     border: 0;
     margin-top: 30px;
+    cursor: pointer;
 }
 
 /* main section styles start */
@@ -181,8 +182,16 @@ span{
 }
 .offer{
     text-align: center;
-    padding: 0 10px;
-
+    /* padding: 0 10px; */
+}
+.offer_description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+     
 }
 .discount_title{
     color: #272727;
@@ -233,7 +242,7 @@ span{
 input{
     padding: 10px 200px 10px 0px;
     background-color: white;
-    color: rgba(39, 39, 39, 0.60);
+    color: #E55473;
     text-align: center;
     font-family: Lato;
     font-size: 14px;
@@ -242,4 +251,44 @@ input{
     border: 0;
     border-radius: 5px;
     margin-left: 23%;
+}
+
+/* footer section styles */
+.footer{
+    width: 100%;
+    background-color: black;
+    height: 500px;
+}
+.footer_container{
+    width: 70%;
+    margin: auto;
+    padding-top: 130px;
+}
+.shopname{
+    color: pink;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+.shop_description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px; 
+    width: 400px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.copy{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 20px;
 }
