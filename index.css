@@ -64,7 +64,8 @@ span{
     color: gray;
     font-size: 18px;
     font-weight: 400;
-    line-height: 26px;  
+    line-height: 26px;
+    margin-top: 15px;
 }
 .header_btn{
     padding: 10px 15px;
@@ -191,7 +192,7 @@ span{
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-     
+    margin-top: 15px;
 }
 .discount_title{
     color: #272727;
@@ -204,74 +205,72 @@ span{
     color: #E55473;
 }
 /* my created section */
+.container_wrepper{
+  width: 100%;
+  height: 400px;
+  margin: auto; 
+  background-image:url("./Flower Asset/banner33.jpg") ;
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
 .delevery_container{
-    background-image:url("./Flower Asset/banner33.jpg") ;
-    width: 100%;
+    width: 55%;
     height: 400px;
-    background-repeat: no-repeat;
-    background-size:cover;
-    padding-left: 219px;
-    padding-top: 100px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+    padding-top: 65px;
 }
 .del_box{
-    width: 196px;
+    width: 200px;
     text-align: center;
     background-color: #ffe2e6d5;
-    height: 300px;
-    /* margin: auto; */
+    height: 330px;
     padding: 10px;
     padding-top: 30px;
     border-radius: 100px 2px 50px 50px;
     cursor: pointer;
+    box-shadow: 2px 1px 6px 2px rgb(174, 163, 148);
 }
 .del_box1{
-    width: 196px;
+    width: 200px;
     text-align: center;
     background-color: rgba(255, 117, 117, 0.373);
-    height: 300px;
-    /* margin: auto; */
+    height: 330px;
     padding: 10px;
     padding-top: 30px;
     border-radius: 70px 70px 50px 50px;
     cursor: pointer;
+    box-shadow: 2px 1px 6px 2px rgb(174, 163, 148);
 }
 .del_box2{
-    width: 196px;
+    width: 200px;
     text-align: center;
     background-color: rgba(115, 231, 181, 0.537);
-    height: 300px;
-    /* margin: auto; */
+    height: 330px;
     padding: 10px;
     padding-top: 30px;
     border-radius: 100px 1px 50px 50px;
     cursor: pointer;
+    box-shadow: 2px 1px 6px 2px rgb(174, 163, 148);
 }
 .icon_title{
     color: #272727;
     font-family: Lato;
     font-size: 20px;
     font-weight: 800;
-    line-height: normal; 
-    margin-top: 4px;  
+    /* line-height: normal; */
+    margin-top: 4px;
+    margin-top: 16px;
 }
-.icon_des{
-color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 15px;
-font-weight: 400;
-line-height: 30px;
-}
+.icon_des{color: rgba(39, 39, 39, 0.60);text-align: center;font-family: Lato;font-size: 15px;font-weight: 400;line-height: 18px;margin-top: 10px;}
 .f_icon{
     width: 100px;
 }
-.delevery_container{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    margin: auto;
-    /* padding-left: 100px; */
-}
+
 
 
 /* instagram styles */
